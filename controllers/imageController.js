@@ -3,7 +3,7 @@ const { optimizeImage } = require('../utils/imageProcessor');
 const { extractTextFromImage, parseFields } = require('../services/claudeService');
 const axios = require('axios');
 
-const configs = require('../config/config.json'); // Load configs (including Anthropic API key fallback)
+const configs = require('../configs/config.json'); // Load configs (including Anthropic API key fallback)
 
 
 /**
